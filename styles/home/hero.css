@@ -1,0 +1,31 @@
+.test-container {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Image CSS */
+
+.image {
+    height: 100px;
+    width: 100px;
+    image-rendering: auto;
+}
+
+.crisp-edges {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+.pixelated {
+    image-rendering: pixelated;
+}
+
+.smooth {
+    image-rendering: smooth;
+}
+
+.high-quality {
+    image-rendering: high-quality;
+}
