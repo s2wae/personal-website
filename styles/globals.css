@@ -10,13 +10,39 @@
 body{
     background-color:lightblue;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
+
 
 .background{
     display: flex;
-    flex-direction: column;
+    width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(180deg, rgb(10 10 10 / 0), rgb(255, 255, 255)), url(/images/background/noise.png);
-
+    background-image: linear-gradient(180deg, rgb(10 10 10 / 0), rgba(229, 111, 255, 0.378)), url(/images/background/noise.png);
 }
 
+/* Image CSS */
+
+.image {
+    height: 100px;
+    width: 100px;
+    image-rendering: auto;
+}
+
+.crisp-edges {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+.pixelated {
+    image-rendering: pixelated;
+}
+
+.smooth {
+    image-rendering: smooth;
+}
+
+.high-quality {
+    image-rendering: high-quality;
+}

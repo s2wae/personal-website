@@ -1,0 +1,59 @@
+
+.cat-shadow{
+    position: fixed;
+    box-shadow: 0 15px 4px 4px rgba(0,0,0,0.2);
+    z-index: -2;
+    border-radius: 30%;
+    bottom: 11%;
+    left: 4.5%;
+    width: 209px;
+    height: 10px;
+}
+
+
+.cat-container{
+    display: grid;
+    position: fixed;
+    grid-template-columns: 1fr 1fr;
+    bottom: 10%;
+    left: 5%;
+    gap: 20px;
+}
+
+.iancat{
+    width: 100%;
+    height: 100%;
+}
+
+.dycat{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Responsive Section */
+
+@media (max-width: 320px){
+
+}
+
+@media (max-width: 420px){
+    
+}
+
+@media (max-width: 600px){
+
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 1200px){
+    
+}
+
