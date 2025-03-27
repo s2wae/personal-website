@@ -1,23 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     list-style: none;
     color: black;
-  }
-  
+}
 
-body{
-    background-color:lightblue;
-    width: 100%;
-    height: 100%;
+html{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    /* background-image: linear-gradient(180deg, rgb(10 10 10 / 0), rgba(229, 111, 255, 0.378)), url(/images/background/noise.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%; */
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
 
-.background{
-    display: flex;
-    width: 100%;
+.background {
     min-height: 100vh;
     background-image: linear-gradient(180deg, rgb(10 10 10 / 0), rgba(229, 111, 255, 0.378)), url(/images/background/noise.png);
 }

@@ -10,48 +10,45 @@
 
 @keyframes picline1-path-x {
     0%{
-        transform: rotate(15deg);
+        transform: rotate(28deg);
         left: -220px;
     }
 
 
     50%{
-        transform: rotate(10deg);
+        transform: rotate(15deg);
     }
 
     
     75%{
-        transform: rotate(3deg);
+        transform: rotate(13deg);
     }
 
 
     100% {
-        transform: rotate(-4deg);
+        transform: rotate(12deg);
         left: 1800px;
     }
 }
 
 @keyframes picline1-path-y {
     0%{
-        top: -100px;
+        top: -140px;
     }
 
-    25% {
-        top: 20px;
+
+    40% {
+        top: 180px;
     }
 
     50%{
-        top: 120px;
+        top: 250px;
     }
 
-    75%{
-        top: 180px;
-    }
 
     100% {
-        top: 180px;
+        top: 500px;
     }
-
 }
 
 @keyframes picline2-path-x {
@@ -62,44 +59,43 @@
 
 
     50%{
-        transform: rotate(-5deg);
+        transform: rotate(-10deg);
     }
 
     75%{
-        transform: rotate(-1deg);
+        transform: rotate(-5deg);
     }
 
     100% {
-        transform: rotate(6deg);
+        transform: rotate(0deg);
         left: -220px;
     }
 }
 
 @keyframes picline2-path-y {
     0%{
-        top: 280px;
+        top: 10px;
     }
 
     25% {
-        top: 410px;
+        top: 60px;
     }
 
     50% {
-        top: 470px;
+        top: 150px;
     }
 
     65%{
-        top: 490px;
+        top: 200px;
     }
 
-    75%{
-        top: 500px;
-    }
 
     100% {
-        top: 480px;
+        top: 250px;
     }
 }
+
+
 
 
 
@@ -125,12 +121,20 @@
 }
 
 
+.picture-line-bg {
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(147, 147, 147));
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
 
 .picture-line {
     border: none;
     border-bottom: 5px solid #d59a70;
     position: absolute;
-    width: 2000px;
+    width: 2500px;
     border-radius: 100%;
     overflow: hidden;
     transition: all 0.5 ease-in;
@@ -139,6 +143,9 @@
     z-index: -1;
 }
 
+.picture-line-wrapper{
+    position: absolute;
+}
 
 .picture-line::before {
     display: block;
@@ -173,7 +180,7 @@
     height: 75px;
     top: -50px;
     left: 0px;
-    transform: rotate(10deg);
+    transform: rotate(3deg);
     background: linear-gradient(180deg, 
         #deb887 calc(70% - 5px), 
         rgb(130, 130, 130) calc(70%), 
@@ -187,10 +194,10 @@
     content:"";
     position: absolute;
     width: 18px;
-    height: 75px;
+    height: 80px;
     top: -50px;
     left: 150px;
-    transform: rotate(-5deg);
+    transform: rotate(-2deg);
     background: linear-gradient(180deg, 
         #deb887 calc(70% - 5px), 
         rgb(130, 130, 130) calc(70%), 
@@ -205,9 +212,10 @@
 
 
 .picture-line.style1 {
-    top: -20%;
-    left: -10%;
-    transform: rotate(10deg);
+    top: 50px;
+    left: 20px;
+    transform: rotate(15deg);
+
 }
 
 .picline1-pic1 {
@@ -234,9 +242,9 @@
 
 
 .picture-line.style2 {
-    top: 25%;
-    left: -10%;
-    transform: rotate(-5deg);
+    top: -150px;
+    left: -300px;
+    transform: rotate(-10deg);
 }
 
 
