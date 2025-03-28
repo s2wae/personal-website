@@ -1,3 +1,5 @@
+
+
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -95,15 +97,21 @@
     }
 }
 
+/* Clock CSS */
 
+.clock-wrapper{
+    padding: 60px 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
 
+/* Hero CSS */
 
-
-.test-container {
+.hero-container {
     margin: auto;
     width: 100%;
-    justify-content: center;
-    text-align: center;
+    height: 800px;
 }
 
 .btn {
@@ -144,7 +152,8 @@
 }
 
 .picture-line-wrapper{
-    position: absolute;
+    left: -200px;
+    position: relative;
 }
 
 .picture-line::before {

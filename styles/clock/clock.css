@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.clock {
+    font-size: 13em;
+    font-family: "Poppins", sans-serif;
+    color: rgb(175, 30, 215);
+}
+
+
+.clock-container {
+    position: relative;
+    z-index: 100;
+    opacity: 0.4;
+    transition: all 0.4s ease-out;
+}
+
+.clock-container:hover {
+    opacity: 0.8;
+    transition: all 0.4s ease-out;
+}
+
+
+.date {
+    font-size: 7em;
+    font-family: "Poppins", sans-serif;
+    color: rgb(184, 43, 222);
+    transition: all 0.4s ease-out;
+}
+
+.date-container {
+    position: relative;
+    z-index: 100;
+    opacity: 0.4;
+    transition: all 0.4s ease-out;
+}
+
+.date-container:hover {
+    opacity: 0.8;
+    transition: all 0.4s ease-out;
+}
+
+@media (max-width: 768px) {
+    .clock {
+        font-size: 8em;
+        font-family: "Poppins", sans-serif;
+        color: rgb(175, 30, 215);
+    }
+
+    .date {
+        font-size: 5em;
+        font-family: "Poppins", sans-serif;
+        color: rgb(184, 43, 222);
+        transition: all 0.4s ease-out;
+    }
+}
+
+@media (max-width: 568px) {
+    .clock {
+        font-size: 5em;
+        font-family: "Poppins", sans-serif;
+        color: rgb(175, 30, 215);
+    }
+
+    .date {
+        font-size: 3em;
+        font-family: "Poppins", sans-serif;
+        color: rgb(184, 43, 222);
+        transition: all 0.4s ease-out;
+    }
+}

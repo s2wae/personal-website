@@ -17,12 +17,12 @@ export default function Navwheel() {
     }
 
     return (
-        <>
+        <div>
             <div className='cat-container'>
                 <img className='iancat image pixelated' src={ianCat} alt='ian_cat' />
                 <img className='dycat image pixelated' src={dyCat} alt='dy_cat' />
             </div>
             <div className='cat-shadow' />
-        </>
+        </div>
     )
 }
